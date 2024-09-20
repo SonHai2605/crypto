@@ -49,3 +49,5 @@ git init
 ### git log
 
 > > kiểm tra lịch sử commit
+
+### muốn chuyển qua nhánh khác trong git thì phải commit hết các file đang sửa or chưa sửa và chưa commit lên git repo remote
