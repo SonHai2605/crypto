@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+/* 
+tính năng của tailwind tạo 1 class tuân thủ theo cú pháp này để tránh 
+css class bị trùng lập nhiều  */
+
+@layer components {
+    .link {
+        @apply cursor-pointer hover:text-white hover:underline underline-offset-4 transition-all;
+    }
+}
+
+/* break point: 640px (sm), 768px (md), 1024px (lg), 1280px (xl), 1536px (2xl) */
+
+/* Responsive thuần bằng tay */
+/* áp dụng khi từ 640 trở lên  */
+/* sử dụng min-witdth nhiều hơn  */
+@media screen and (min-width: 640px) {
+ /* CSS  */
+ /* .sub-title {
+    color:red
+ } */
+}
+
+
+/* css sau thì độ ưu tiên cao hơn  */
+/* áp dụng khi từ 768 trở lên  */
+@media screen and (min-width: 768px) {
+    .sub-title {
+        color: aqua;
+    }
+}
+
+
+
+/* áp dụng khi từ 640 trở xuống  */
+@media screen and (max-width: 640px) {
+
+    .sub-title {
+        color:red
+     }
+}
