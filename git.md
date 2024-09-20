@@ -56,6 +56,9 @@ git init
 
 > > kiểm tra lịch sử commit
 
+<<<<<<< HEAD
+### muốn chuyển qua nhánh khác trong git thì phải commit hết các file đang sửa or chưa sửa và chưa commit lên git repo remote
+=======
 ### git push -u origin <tên nhánh>
 
 => đưa code lên repo remote
@@ -98,3 +101,4 @@ git branch -a or git branch
 
 git switch <tên nhánh>
 => chuyển qua nhánh <tên nhánh>
+>>>>>>> main
