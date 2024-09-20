@@ -123,3 +123,9 @@ merge <branch> vào branch hiện tại
 1. TH1: merge thành công nếu ko có bất kỳ xung đột (conflict)
 2. TH2 : bị xung đột => giải quyết conflict => git add => commit
    => nếu merge code mà bị conflict => có thể hủy git merge thông qua lệnh: git merge --abort
+
+### cách xóa lịch sử commit
+
+b1 git log
+b2 chọn coppy id dưới cái lịch sử cần xóa
+b3 q rồi git reset + dán id vừa coppy vào enter
